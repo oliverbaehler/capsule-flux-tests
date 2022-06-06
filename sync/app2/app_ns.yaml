@@ -1,4 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: sample-tenant-app-1
+  name: sample-tenant-app-2

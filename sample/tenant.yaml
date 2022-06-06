@@ -1,0 +1,8 @@
+apiVersion: capsule.clastix.io/v1beta1
+kind: Tenant
+metadata:
+  name: sample-tenant
+spec:
+  owners:
+  - kind: ServiceAccount
+    name: system:serviceaccount:tenants:sample-tenant

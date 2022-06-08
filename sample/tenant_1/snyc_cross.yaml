@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: sample-tenant_scen2
+  name: sample-tenant-scen2
   namespace: tenants
 spec:
   interval: 5m

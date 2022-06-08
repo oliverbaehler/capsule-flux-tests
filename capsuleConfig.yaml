@@ -1,0 +1,10 @@
+apiVersion: capsule.clastix.io/v1alpha1
+kind: CapsuleConfiguration
+metadata:
+  name: capsule-default
+spec:
+  forceTenantPrefix: true 
+  protectedNamespaceRegex: ""
+  userGroups:
+  - capsule.clastix.io
+  - system:serviceaccounts:tenants

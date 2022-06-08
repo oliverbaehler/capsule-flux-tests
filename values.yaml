@@ -1,5 +1,0 @@
-manager:
-  options:
-    capsuleUserGroups:
-      - "system:serviceaccounts:tenants"
-    forceTenantPrefix: true

@@ -1,0 +1,13 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: sample-tenant_scen2
+  namespace: tenants
+spec:
+  interval: 5m
+  path: "./sync/scenario_2"
+  sourceRef:
+    kind: GitRepository
+    name: sample-tenant
+  serviceAccountName: sample-tenant
+  prune: true
